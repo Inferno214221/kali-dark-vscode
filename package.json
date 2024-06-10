@@ -1,0 +1,21 @@
+{
+  "name": "kali-dark-mod",
+  "displayName": "Kali-Dark-Mod",
+  "description": "A mod of Kali-Dark",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.84.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kali Dark Mod",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kali Dark Mod-color-theme.json"
+      }
+    ]
+  }
+}
