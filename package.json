@@ -1,7 +1,7 @@
 {
-  "name": "kali-dark-mod",
-  "displayName": "Kali-Dark-Mod",
-  "description": "A mod of Kali-Dark",
+  "name": "kali-dark-vscode",
+  "displayName": "Kali Dark VSCode",
+  "description": "Kali-Dark theme for VSCode/ium",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.84.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Kali Dark Mod",
+        "label": "Kali Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Kali Dark Mod-color-theme.json"
+        "path": "./themes/kali-dark-color-theme.json"
       }
     ]
   }
