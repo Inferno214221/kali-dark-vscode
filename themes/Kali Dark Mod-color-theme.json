@@ -609,7 +609,6 @@
 		{
 			"name": "Attribute IDs",
 			"scope": [
-				"entity.other.attribute-name",
 				"string.unquoted.alias.graphql"
 			],
 			"settings": {
@@ -779,7 +778,10 @@
 			"name": "Escape Characters",
 			"scope": [
 				"constant.character.escape",
-				"constant.other.character-class"
+				"constant.other.character-class",
+				"string.unquoted.path.nix",
+				"string.unquoted.spath.nix",
+				"string.unquoted.url.nix"
 			],
 			"settings": {
 				"foreground": "#ff936a"
@@ -836,7 +838,8 @@
 				"constant.other.object.key.js",
 				"string.unquoted.label.js",
 				"support.type.map.key",
-				"variable.graphql"
+				"variable.graphql",
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#ce9887"
